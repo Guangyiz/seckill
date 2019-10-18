@@ -18,7 +18,7 @@ public class DemoController {
     @RequestMapping("/helloerror")
     @ResponseBody
     public Result<String> error() {
-        return Result.error(CodeMsg.SYS_ERROR);
+        return Result.error(CodeMsg.SERVER_ERROR);
     }
 
     @RequestMapping("/thymeleaf")
